@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    transition: 0.8s all ease;
+    background-image: linear-gradient(to right, #010b12, #28282b);
+}
+
+.NavbarContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    padding: 0 24px;
+    max-width: 1100px;
+}
+
+.NavLogo {
+    color: #fcfbfc;
+    justify-self: flex-start;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.NavMenu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin-right: 22px;
+}
+
+.NavItem {
+    padding: 10px;
+}
+
+.NavLinks {
+    color: #fcfbfc;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.NavItem:hover {
+    color: #75457f;
+    text-shadow: 0px 0px 30px #75457f;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 844px) {
+    nav {
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .NavbarContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .NavLogo {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    .NavMenu {
+        flex-direction: column;
+    }
+
+    .NavLinks {
+        padding-bottom: 1rem;
+    }
+}
