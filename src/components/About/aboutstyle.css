@@ -1,0 +1,38 @@
+.AboutContainer {
+    padding: 60px;
+    margin-top: 80px;
+}
+
+.AboutTextContainer {
+    width: 39.0625vw;
+    height: 109.24369747899159vh;
+    color: #fcfbfc;
+    padding: 20px;
+}
+
+.AboutBigText {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.AboutSmallText {
+    font-size: 22px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 844px) {
+    .AboutContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .AboutBigText {
+        font-size: 40px;
+    }
+
+    .AboutSmallText {
+        font-size: 10px;
+    }
+}
