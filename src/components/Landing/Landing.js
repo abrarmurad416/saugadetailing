@@ -11,21 +11,17 @@ export default function Landing() {
                     GTA
                 </div>
                 <div className="grid-container-element">
-                    <div className="HeroButton">
-                        <a
-                            href={calendlyLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="HeroSubText"
-                        >
-                            Book a Call
-                        </a>
-                    </div>
-                    <div className="HeroButton">
-                        <a href="" className="HeroSubText">
-                            Reviews
-                        </a>
-                    </div>
+                    <a
+                        href={calendlyLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="HeroButton"
+                    >
+                        <div className="HeroSubText">Book a Call</div>
+                    </a>
+                    <a href="#" className="HeroButton">
+                        <div className="HeroSubText">Reviews</div>
+                    </a>
                 </div>
             </div>
         </div>

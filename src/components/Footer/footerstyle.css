@@ -1,0 +1,25 @@
+.Footer {
+    height: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #010b12, #28282b);
+    padding: 20px;
+    color: #fcfbfc;
+}
+
+.FooterSocials {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+.FooterEmail {
+    color: #fcfbfc;
+    text-decoration: none;
+}
+
+.FooterTrademark {
+    padding-bottom: 20px;
+}
