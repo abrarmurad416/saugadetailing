@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Landing from "./components/Landing/Landing";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
-import ServicesData from "./components/Services/ServicesData";
 
 export default function App() {
     return (
@@ -11,6 +10,7 @@ export default function App() {
             <Navbar />
             <Landing />
             <About />
+            <Services />
         </div>
     );
 }

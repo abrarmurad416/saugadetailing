@@ -1,0 +1,57 @@
+.ServicesBackground {
+    background: #121212;
+}
+
+.ServicesBigText {
+    font-size: 3.90625vw;
+    font-weight: 700;
+    color: #fcfbfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ServicesContainer {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.ServicesGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.ServicesCard {
+    background-color: #fcfbfc;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+    padding: 16px;
+    text-align: center;
+    border-radius: 16px;
+    color: #26102a;
+    font-size: 1.4322916666666667vw;
+}
+
+.ServicesCard:hover {
+    background-color: #efeff0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 844px) {
+    .ServicesGrid {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .ServicesCard {
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .ServicesBigText {
+        font-size: 40px;
+    }
+}

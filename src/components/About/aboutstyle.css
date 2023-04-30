@@ -11,12 +11,12 @@
 }
 
 .AboutBigText {
-    font-size: 60px;
+    font-size: 3.90625vw;
     font-weight: 700;
 }
 
 .AboutSmallText {
-    font-size: 22px;
+    font-size: 1.4322916666666667vw;
     text-align: justify;
 }
 
@@ -33,6 +33,6 @@
     }
 
     .AboutSmallText {
-        font-size: 10px;
+        font-size: 12px;
     }
 }

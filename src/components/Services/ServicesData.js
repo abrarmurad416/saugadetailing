@@ -3,14 +3,14 @@ export default [
         id: 1,
         title: "Full Interior Package",
         description:
-            "Carpet and seat vacuum\nGarbage removal\nSeat and carpet shampoo\nRubber mat cleaned shine\nInterior windows\nDash wipe down\nDoor jambs\nSteam clean",
+            "Carpet and seat vacuum | Garbage removal | Seat and carpet shampoo | Rubber mat cleaed/shine | Interior windows | Dash wipe down | Door jambs | Steam clean",
     },
 
     {
         id: 2,
         title: "Full Exterior Package",
         description:
-            "Foam cannon wash\nHand wash and wax\nTire and wheel cleaned\nTire and rim shine\nDoor jambs\nWindows cleaned\nClay bar\nFull exterior polish",
+            "Foam cannon wash | Hand wash and wax | Tire and wheel cleaned | Tire and rim shine | Door jambs | Windows cleaned | Clay bar | Full exterior polish",
     },
 
     {
