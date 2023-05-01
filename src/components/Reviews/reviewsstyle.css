@@ -1,4 +1,13 @@
-/* main grid base for cards */
+.ReviewsBigText {
+    font-size: 3.90625vw;
+    font-weight: 700;
+    color: #fcfbfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
@@ -9,9 +18,9 @@ main {
 /* cards text */
 .text--medium {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 30px;
     font-weight: 400;
-    color: #fffaf1;
+    color: #26102a;
 }
 
 /* cards grid */
@@ -27,7 +36,7 @@ main {
     grid-column-end: span 4;
     display: flex;
     flex-direction: column;
-    background-color: #3e3e3e;
+    background-color: #efeff0;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     border-radius: 14px;
@@ -38,7 +47,6 @@ main {
 .card-box:hover {
     transform: translateY(-7px);
 }
-
 
 /* card content */
 .card__content {
@@ -53,37 +61,69 @@ main {
 /* card info */
 .card__info {
     display: flex;
-    align-self: end;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-top: auto;
 }
 
-/* media queries */
-@media only screen and (max-width: 1000px) {
-    .card {
-        grid-column-end: span 6;
-    }
+.ReviewsStarRating {
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
 }
 
-@media only screen and (max-width: 700px) {
-    main {
-        grid-gap: 20px;
+.ReviewsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.ReviewsButton {
+    margin: 10px;
+    background: #fcfbfc;
+    border-radius: 100px;
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+    text-decoration: none;
+}
+
+.ReviewsButton:hover {
+    background: #fff1ff;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+
+.ReviewsButtonText {
+    text-decoration: none;
+    color: #26102a;
+    padding-top: 20px;
+    vertical-align: middle;
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 4px;
+}
+
+/* media query for screens 600px or smaller */
+@media only screen and (max-width: 600px) {
+    /* modify the cards container */
+    .cards {
+        grid-column: 2 / span 12;
+        grid-template-columns: repeat(12, minmax(auto, 60px));
+        gap: 20px;
+        padding-right: 40px;
     }
-    .card {
+
+    /* modify the individual card boxes */
+    .card-box {
         grid-column-end: span 12;
     }
-}
 
-@media only screen and (max-width: 500px) {
-    main {
-        grid-template-columns: 10px repeat(6, 1fr) 10px;
-        grid-gap: 10px;
-    }
-    .cards {
-        grid-column: 2 / span 6;
-        grid-template-columns: repeat(6, 1fr);
-        grid-gap: 20px;
-    }
-    .card {
-        grid-column-end: span 6;
+    .ReviewsBigText {
+        font-size: 40px;
     }
 }
