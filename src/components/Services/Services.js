@@ -6,7 +6,9 @@ export default function Services() {
         <div className="ServicesBackground">
             <br />
             <br />
-            <div className="ServicesBigText">Services</div>
+            <div id="services" className="ServicesBigText">
+                Services
+            </div>
             <div className="ServicesContainer">
                 <div className="ServicesGrid">
                     {ServicesData.map((item, index) => (

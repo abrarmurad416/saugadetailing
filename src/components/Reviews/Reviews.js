@@ -8,7 +8,9 @@ export default function Reviews() {
 
     return (
         <div>
-            <div className="ReviewsBigText">Reviews</div>
+            <div id="reviews" className="ReviewsBigText">
+                Reviews
+            </div>
             <main>
                 <section class="cards">
                     {ReviewsData.map((item, index) => (

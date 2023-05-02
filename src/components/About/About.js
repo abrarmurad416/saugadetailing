@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
     return (
-        <div className="AboutContainer">
+        <div id="about" className="AboutContainer">
             <div className="AboutTextContainer">
                 <span className="AboutBigText">About</span>
                 <br />

@@ -1,6 +1,5 @@
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
     return (
@@ -15,8 +14,9 @@ export default function Footer() {
                 </a>
             </div>
             <a className="FooterEmail" href="saugadetailing905@gmail.com">
-                Email us 📩
+                saugadetailing905@gmail.com 📩
             </a>
+            <p>Call us at (437) 234-5250 📞</p>
             <br />
             <p className="FooterTrademark">Sauga Detailing | abrar.murad416</p>
         </div>

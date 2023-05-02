@@ -1,0 +1,82 @@
+.ContactBackground {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactBigText {
+    font-size: 3.90625vw;
+    font-weight: 700;
+    color: #fcfbfc;
+    padding-bottom: 20px;
+}
+
+.question {
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 39.0625vw;
+}
+
+.question header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.question h4 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333;
+}
+
+.question p {
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.question button.btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    color: #666;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.question button.btn:hover {
+    transform: scale(1.1);
+}
+
+.question button.btn:focus {
+    transform: scale(1.1);
+    color: #333;
+}
+
+.ContactGoogleMap {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .ContactBigText {
+        font-size: 40px;
+    }
+
+    .question {
+        width: 400px;
+    }
+
+    .ContactGoogleMap {
+        width: 400px;
+        height: 400px;
+    }
+}
