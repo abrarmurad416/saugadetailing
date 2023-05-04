@@ -106,14 +106,14 @@ main {
 }
 
 @media only screen and (max-width: 844px) {
-    .cards {
+    .ReviewsCards {
         grid-column: 2 / span 12;
         grid-template-columns: repeat(12, minmax(auto, 60px));
         gap: 20px;
         padding-right: 40px;
     }
 
-    .card-box {
+    .ReviewsCardBox {
         grid-column-end: span 12;
     }
 
