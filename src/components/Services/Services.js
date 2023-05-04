@@ -13,6 +13,7 @@ export default function Services() {
                 <div className="ServicesGrid">
                     {ServicesData.map((item, index) => (
                         <div className="ServicesCard" key={index}>
+                            <img src={item.image} alt={item.alt} />
                             <h3>{item.title}</h3>
                             <p>{item.description}</p>
                         </div>

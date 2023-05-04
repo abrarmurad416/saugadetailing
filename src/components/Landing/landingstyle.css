@@ -60,7 +60,7 @@
 }
 
 .HeroButton:hover {
-    box-shadow: 0 0 20px 10px #dc143c;
+    box-shadow: 0 0 20px 10px #ffd700;
     transition: all 0.6s ease;
     cursor: pointer;
 }

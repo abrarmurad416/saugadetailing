@@ -60,7 +60,7 @@
 
 .ContactQuestion button.btn:focus {
     transform: scale(1.1);
-    color: #dc143c;
+    color: #ffd700;
 }
 
 .ContactGoogleMap {
@@ -73,7 +73,7 @@
     }
 
     .ContactQuestion {
-        width: 400px;
+        width: 600px;
     }
 
     .ContactGoogleMap {

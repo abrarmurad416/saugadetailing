@@ -29,7 +29,7 @@ export default function Landing() {
                                 })
                             }
                         >
-                            See what people say
+                            See What People Say
                         </div>
                     </a>
                 </div>

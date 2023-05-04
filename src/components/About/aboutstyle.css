@@ -35,7 +35,7 @@
 }
 
 .AboutImage:hover {
-    box-shadow: 0 0 20px 10px #dc143c;
+    box-shadow: 0 0 20px 10px #ffd700;
 }
 
 @media screen and (max-width: 844px) {

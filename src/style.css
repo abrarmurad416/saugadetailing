@@ -68,9 +68,10 @@ nav {
     text-transform: uppercase;
 }
 
-.NavItem:hover {
-    color: #dc143c;
-    text-shadow: 0px 0px 30px #dc143c;
+.NavItem:hover,
+.NavLogo:hover {
+    color: #ffd700;
+    text-shadow: 0px 0px 30px #ffd700;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
