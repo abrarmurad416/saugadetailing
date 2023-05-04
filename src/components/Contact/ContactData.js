@@ -1,25 +1,25 @@
 export default [
     {
         id: 1,
-        question: "bruh",
+        question: "this",
         answer: "lorem ipsum dolor sit amet",
     },
 
     {
         id: 2,
-        question: "bruh",
+        question: "is",
         answer: "lorem ipsum dolor sit amet",
     },
 
     {
         id: 3,
-        question: "bruh",
+        question: "the",
         answer: "lorem ipsum dolor sit amet",
     },
 
     {
         id: 4,
-        question: "bruh",
+        question: "F&Q",
         answer: "lorem ipsum dolor sit amet",
     },
 ];

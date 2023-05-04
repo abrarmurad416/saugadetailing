@@ -60,19 +60,19 @@
 }
 
 .HeroButton:hover {
-    background: #fff1ff;
+    box-shadow: 0 0 20px 10px #dc143c;
     transition: all 0.6s ease;
     cursor: pointer;
 }
 
 .HeroSubText {
-    color: #26102a;
+    color: #121212;
     padding-top: 20px;
     vertical-align: middle;
     line-height: 60px;
     font-weight: 700;
     font-size: 16px;
-    padding-top: 4px;
+    padding-top: 1px;
 }
 
 .grid-container-element {

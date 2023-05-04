@@ -12,13 +12,13 @@ export default function Reviews() {
                 Reviews
             </div>
             <main>
-                <section class="cards">
+                <section className="ReviewsCards">
                     {ReviewsData.map((item, index) => (
-                        <div class="card-box">
-                            <div class="card__content" key={index}>
-                                <div class="card__info" key={index}>
+                        <div className="ReviewsCardBox">
+                            <div className="ReviewsCardContent" key={index}>
+                                <div className="ReviewCardInfo" key={index}>
                                     <p
-                                        class="card__title text--medium"
+                                        class="ReviewCardTitle text--medium"
                                         key={index}
                                     >
                                         {item.name}

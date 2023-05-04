@@ -35,7 +35,7 @@ export default function About() {
             </div>
             <div>
                 <img
-                    src="./images/lambo.jpg"
+                    src="./images/Lambo.jpg"
                     alt="Lambo"
                     className="AboutImage"
                 />

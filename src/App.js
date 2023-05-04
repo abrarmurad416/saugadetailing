@@ -9,10 +9,8 @@ import Contact from "./components/Contact/Contact";
 import { ContactBigText } from "./components/Contact/Contact";
 import { ContactGoogle } from "./components/Contact/Contact";
 import ContactData from "./components/Contact/ContactData";
-import Team from "./components/Team/Team";
 import Carousel from "./components/About/Carousel";
 
-// make favicon
 export default function App() {
     const ContactElements = ContactData.map((contact) => {
         return (

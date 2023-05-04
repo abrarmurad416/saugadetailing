@@ -6,7 +6,9 @@ export default function Landing() {
     return (
         <div className="HeroSection">
             <div className="HeroCenter">
-                <div className="HeroText">The difference is in the details</div>
+                <div className="HeroText" id="landing">
+                    The Difference Is In The Details
+                </div>
                 <div className="grid-container-element">
                     <a
                         href={calendlyLink}

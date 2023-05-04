@@ -13,7 +13,7 @@ export default function Contact(props) {
     const [showInfo, setShowInfo] = useState(false);
     return (
         <div className="ContactBackground">
-            <article className="question">
+            <article className="ContactQuestion">
                 <header>
                     <h4>{props.question}</h4>
                     <button

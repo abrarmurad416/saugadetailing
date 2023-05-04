@@ -5,7 +5,18 @@ export default function Navbar() {
         <div>
             <nav>
                 <div className="NavbarContainer">
-                    <div className="NavLogo">Sauga Detailing</div>
+                    <div
+                        className="NavLogo"
+                        onClick={() =>
+                            window.scrollTo({
+                                top: document.getElementById("landing")
+                                    .offsetTop,
+                                behavior: "smooth",
+                            })
+                        }
+                    >
+                        Sauga Detailing
+                    </div>
                     <div className="NavMenu">
                         <div className="NavLinks">
                             <p
@@ -43,18 +54,6 @@ export default function Navbar() {
                                 className="NavItem"
                             >
                                 Reviews
-                            </p>
-                            <p
-                                onClick={() =>
-                                    window.scrollTo({
-                                        top: document.getElementById("team")
-                                            .offsetTop,
-                                        behavior: "smooth",
-                                    })
-                                }
-                                className="NavItem"
-                            >
-                                Team
                             </p>
                             <p
                                 onClick={() =>

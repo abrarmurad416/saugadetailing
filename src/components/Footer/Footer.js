@@ -16,9 +16,13 @@ export default function Footer() {
             <a className="FooterEmail" href="saugadetailing905@gmail.com">
                 saugadetailing905@gmail.com 📩
             </a>
+            <br />
             <p>Call us at (437) 234-5250 📞</p>
             <br />
-            <p className="FooterTrademark">Sauga Detailing | abrar.murad416</p>
+            <p className="FooterTrademark">Sauga Detailing</p>
+            <p className="FooterTrademark">
+                <small>Built with 🧰 by @abrar.murad416</small>
+            </p>
         </div>
     );
 }

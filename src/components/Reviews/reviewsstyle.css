@@ -15,24 +15,25 @@ main {
     padding: 60px 0;
 }
 
-/* cards text */
 .text--medium {
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;
-    color: #26102a;
+    color: #121212;
 }
 
-/* cards grid */
-.cards {
+.text--medium:hover {
+    font-weight: bold;
+}
+
+.ReviewsCards {
     grid-column: 2 / span 12;
     display: grid;
     grid-template-columns: repeat(12, minmax(auto, 60px));
     grid-gap: 40px;
 }
 
-/* card box */
-.card-box {
+.ReviewsCardBox {
     grid-column-end: span 4;
     display: flex;
     flex-direction: column;
@@ -43,23 +44,19 @@ main {
     align-items: center;
 }
 
-/* card box on hover */
-.card-box:hover {
+.ReviewsCardBox:hover {
     transform: translateY(-7px);
 }
 
-/* card content */
-.card__content {
+.ReviewsCardContent {
     padding: 20px;
 }
 
-/* card title */
-.card__title {
+.ReviewCardTitle {
     margin-bottom: 20px;
 }
 
-/* card info */
-.card__info {
+.ReviewCardInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,14 +89,14 @@ main {
 }
 
 .ReviewsButton:hover {
-    background: #fff1ff;
+    box-shadow: 0 0 20px 10px #dc143c;
     transition: all 0.6s ease;
     cursor: pointer;
 }
 
 .ReviewsButtonText {
     text-decoration: none;
-    color: #26102a;
+    color: #121212;
     padding-top: 20px;
     vertical-align: middle;
     line-height: 60px;
@@ -108,9 +105,7 @@ main {
     padding-top: 4px;
 }
 
-/* media query for screens 600px or smaller */
-@media only screen and (max-width: 600px) {
-    /* modify the cards container */
+@media only screen and (max-width: 844px) {
     .cards {
         grid-column: 2 / span 12;
         grid-template-columns: repeat(12, minmax(auto, 60px));
@@ -118,7 +113,6 @@ main {
         padding-right: 40px;
     }
 
-    /* modify the individual card boxes */
     .card-box {
         grid-column-end: span 12;
     }

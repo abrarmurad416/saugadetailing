@@ -26,11 +26,18 @@
 .AboutImage {
     width: 39.0625vw;
     height: 109.24369747899159vh;
-    margin-left: 20px; /* Add some margin to separate the image from the text */
+    margin-left: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
 }
+
+.AboutImage:hover {
+    box-shadow: 0 0 20px 10px #dc143c;
+}
+
 @media screen and (max-width: 844px) {
     .AboutContainer {
         display: flex;
@@ -45,36 +52,17 @@
 
     .AboutTextContainer {
         width: 80%;
-        margin-bottom: 20px;
     }
 
     .AboutImage {
-        width: 80%;
-        height: 200px;
+        width: 100%;
+        height: auto;
         margin-left: 0;
+        margin-top: -100px;
     }
 
     .AboutSmallText {
         font-size: 12px;
         text-align: left;
     }
-}
-
-.CarouselContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    margin-top: 50px;
-}
-
-.CarouselImage {
-    position: absolute;
-    left: -9999px;
-    transition: all 1s ease;
-}
-
-.CarouselImage.active {
-    left: 0;
-    z-index: 1;
 }

@@ -4,10 +4,10 @@ export default function Carousel() {
     const [slideIndex, setSlideIndex] = useState(1);
 
     const plusSlides = (n) => {
-        if (slideIndex === 3 && n > 0) {
+        if (slideIndex === 4 && n > 0) {
             setSlideIndex(1);
         } else if (slideIndex === 1 && n < 0) {
-            setSlideIndex(3);
+            setSlideIndex(4);
         } else {
             setSlideIndex(slideIndex + n);
         }
@@ -42,7 +42,6 @@ export default function Carousel() {
         dots[slideIndex - 1].className += " active";
     };
 
-    // Call showSlides whenever slideIndex changes
     useEffect(() => {
         showSlides();
     }, [slideIndex]);
@@ -51,30 +50,35 @@ export default function Carousel() {
         <div>
             <div className="slideshow-container">
                 <div className="mySlides fade">
-                    <div className="numbertext">1 / 3</div>
+                    <div className="numbertext">1 / 4</div>
                     <img
-                        src={process.env.PUBLIC_URL + "/images/Mclaren.jpg"}
+                        src={process.env.PUBLIC_URL + "/images/Benz.jpg"}
                         style={{ width: "100%" }}
                     />
-                    <div className="text">Caption Text</div>
                 </div>
 
                 <div className="mySlides fade">
-                    <div className="numbertext">2 / 3</div>
+                    <div className="numbertext">2 / 4</div>
                     <img
-                        src={process.env.PUBLIC_URL + "/images/lambo.jpg"}
+                        src={process.env.PUBLIC_URL + "/images/BMW.jpg"}
                         style={{ width: "100%" }}
                     />
-                    <div className="text">Caption Two</div>
                 </div>
 
                 <div className="mySlides fade">
-                    <div className="numbertext">3 / 3</div>
+                    <div className="numbertext">3 / 4</div>
                     <img
-                        src={process.env.PUBLIC_URL + "/images/Mclaren.jpg"}
+                        src={process.env.PUBLIC_URL + "/images/Porsche.jpg"}
                         style={{ width: "100%" }}
                     />
-                    <div className="text">Caption Three</div>
+                </div>
+
+                <div className="mySlides fade">
+                    <div className="numbertext">4 / 4</div>
+                    <img
+                        src={process.env.PUBLIC_URL + "/images/Corvette.jpg"}
+                        style={{ width: "100%" }}
+                    />
                 </div>
 
                 <a className="prev" onClick={() => plusSlides(-1)}>
@@ -90,6 +94,7 @@ export default function Carousel() {
                 <span className="dot" onClick={() => currentSlide(1)}></span>
                 <span className="dot" onClick={() => currentSlide(2)}></span>
                 <span className="dot" onClick={() => currentSlide(3)}></span>
+                <span className="dot" onClick={() => currentSlide(4)}></span>
             </div>
         </div>
     );
