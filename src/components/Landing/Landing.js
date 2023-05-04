@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Landing() {
-    const calendlyLink = "https://calendly.com/abrarmurad/30min?month=2023-04";
+    const calendlyLink = "https://calendly.com/saugadetailing/30min";
 
     return (
         <div className="HeroSection">
