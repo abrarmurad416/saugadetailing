@@ -9,5 +9,6 @@ import "./components/Reviews/reviewsstyle.css";
 import "./components/Footer/footerstyle.css";
 import "./components/Contact/contactstyle.css";
 import "./components/Team/teamstyle.css";
+import "./components/About/carouselstyle.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));

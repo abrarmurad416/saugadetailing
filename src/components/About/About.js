@@ -33,7 +33,13 @@ export default function About() {
                     interior and exterior detailing, we've got you covered.
                 </p>
             </div>
-            <div className="AboutImage"></div>
+            <div>
+                <img
+                    src="./images/lambo.jpg"
+                    alt="Lambo"
+                    className="AboutImage"
+                />
+            </div>
         </div>
     );
 }

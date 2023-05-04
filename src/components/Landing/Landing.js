@@ -6,10 +6,7 @@ export default function Landing() {
     return (
         <div className="HeroSection">
             <div className="HeroCenter">
-                <div className="HeroText">
-                    For a Clean You Can Count On - Choose Sauga Detailing in the
-                    GTA
-                </div>
+                <div className="HeroText">The difference is in the details</div>
                 <div className="grid-container-element">
                     <a
                         href={calendlyLink}
@@ -20,7 +17,18 @@ export default function Landing() {
                         <div className="HeroSubText">Book a Call</div>
                     </a>
                     <a href="#" className="HeroButton">
-                        <div className="HeroSubText">Reviews</div>
+                        <div
+                            className="HeroSubText"
+                            onClick={() =>
+                                window.scrollTo({
+                                    top: document.getElementById("reviews")
+                                        .offsetTop,
+                                    behavior: "smooth",
+                                })
+                            }
+                        >
+                            See what people say
+                        </div>
                     </a>
                 </div>
             </div>
