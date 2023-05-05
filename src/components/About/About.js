@@ -10,8 +10,8 @@ export default function About() {
                 <p className="AboutSmallText">
                     Welcome to Sauga Detailing, your premier car detailing
                     service in the Greater Toronto Area (GTA). We are a team of
-                    passionate car enthusiasts who take pride in providing
-                    top-quality detailing services to our clients.
+                    passionate car enthusiasts who deliver top-quality detailing
+                    services to our clients.
                 </p>
                 <br />
                 <p className="AboutSmallText">
