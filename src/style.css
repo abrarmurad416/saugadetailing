@@ -78,6 +78,16 @@ nav {
     transition: all 0.2s ease-in;
 }
 
+::selection {
+    color: #fcfbfc;
+    background: #ffd700;
+}
+
+::-moz-selection {
+    color: #fcfbfc;
+    background: #ffd700;
+}
+
 /* Media query for small screens */
 @media screen and (max-width: 844px) {
     nav {

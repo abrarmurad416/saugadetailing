@@ -19,7 +19,6 @@ export default function Footer() {
             <br />
             <p>Call us at (437) 234-5250 📞</p>
             <br />
-            <p className="FooterTrademark">Sauga Detailing</p>
             <p className="FooterTrademark">
                 <small>Built with 🧰 by @abrar.murad416</small>
             </p>
