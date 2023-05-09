@@ -110,12 +110,12 @@ main {
         grid-column: 2 / span 12;
         grid-template-columns: repeat(12, minmax(auto, 60px));
         gap: 20px;
-        padding-right: 40px;
-        padding-left: 40px;
+        padding-right: 20px;
     }
 
     .ReviewsCardBox {
         grid-column-end: span 12;
+        margin-right: 80px;
     }
 
     .ReviewsBigText {

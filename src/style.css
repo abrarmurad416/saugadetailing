@@ -3,9 +3,15 @@
     padding: 0;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: "Playfair Display", serif;
     background: #151515;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 nav {
@@ -90,6 +96,9 @@ nav {
 
 /* Media query for small screens */
 @media screen and (max-width: 844px) {
+    body {
+        overflow-x: hidden;
+    }
     nav {
         flex-direction: column;
         height: 100px;
