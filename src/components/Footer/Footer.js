@@ -20,7 +20,7 @@ export default function Footer() {
             <p>Call us at (437) 234-5250 📞</p>
             <br />
             <p className="FooterTrademark">
-                <small>Built with 🧰 by @abrar.murad416</small>
+                <small>Built with 🧰 by @abrarmurad416</small>
             </p>
         </div>
     );
