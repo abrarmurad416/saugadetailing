@@ -8,7 +8,7 @@ export default [
 
     {
         id: 2,
-        name: "Ravinder Daran",
+        name: "Ravinder Saran",
         review: "I honestly recommend sauga detailing for all your car detailing needs. Always using the best products to make your car look brand new again. If you want high quality and luxury detailing I highly recommend sauga detailing trust me you won’t be disappointed.",
         traits: " ",
     },
