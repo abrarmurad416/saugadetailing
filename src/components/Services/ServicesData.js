@@ -3,7 +3,7 @@ export default [
         id: 1,
         title: "Full Interior Package",
         description:
-            "Carpet and seat vacuum | Garbage removal | Seat and carpet shampoo | Rubber mat cleaed/shine | Interior windows | Dash wipe down | Door jambs | Steam clean",
+            "Carpet and seat vacuum | Garbage removal | Seat and carpet shampoo | Rubber mat cleaed/shine | Interior windows | Dash wipe down | Door jambs | Steam clean.",
         image: "/images/Lamboinside.jpg",
         alt: "Lambo interior wash",
     },
@@ -12,7 +12,7 @@ export default [
         id: 2,
         title: "Full Exterior Package",
         description:
-            "Foam cannon wash | Hand wash and wax | Tire and wheel cleaned | Tire and rim shine | Door jambs | Windows cleaned | Clay bar | Full exterior polish",
+            "Foam cannon wash | Hand wash and wax | Tire and wheel cleaned | Tire and rim shine | Door jambs | Windows cleaned | Clay bar | Full exterior polish.",
         image: "/images/Porschewash.jpg",
         alt: "Porsche exterior wash",
     },
@@ -21,7 +21,7 @@ export default [
         id: 3,
         title: "Platinum Car Detail",
         description:
-            "This package includes some of the Interior and Exterior services. This package is for you if you want you car to look brand new",
+            "This package includes some of the Interior and Exterior services. This package is for you if you want you car to look brand new.",
         image: "/images/Hondaengine.jpg",
         alt: "Honda engine",
     },
