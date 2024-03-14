@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         question: "Do you do mobile?",
-        answer: "Yes, depending on the service and amount of cars",
+        answer: "Yes, depending on the service and amount of cars.",
     },
 
     {
